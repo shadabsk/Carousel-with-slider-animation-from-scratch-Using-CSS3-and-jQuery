@@ -1,0 +1,27 @@
+.dot {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 1px;
+	cursor: pointer;
+	border: 1px solid black;
+	border-radius: 10px
+
+}
+
+#carousButton span:hover{
+    background-color: black;
+}
+
+@-webkit-keyframes pulseOnce { 
+    0% {-webkit-transform: translateX(100%);} 
+    
+}
+.box {
+    -webkit-animation: pulseOnce .9s ease-in-out both;
+}
+
+
+#carousButton{
+	margin-left: 43em;
+}
