@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Building Carousel slider animation From scratch</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="Assets/Images/LogoGit.png" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" type="text/css" href="Assets/css/myStyle.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+<body>
+
+	<div class="wrapping">
+		<div class="maincont">
+			<div class="box" id="box1">
+				<img id="content1" src="Assets/Images/1.png">
+			</div>
+			<div class="box" id="box2" style="display: none;">
+				<img id="content2" src="Assets/Images/2.png" width="100%">		        
+			</div>
+			<div class="box" id="box3" style="display: none;">
+				<img id="content3" src="Assets/Images/3.png" width="100%">	
+			</div>
+		</div>
+		
+
+		<div id="carousButton">
+		    <span id="ctrl1" class="dot activated"></span>
+		    <span id="ctrl2" class="dot"  ></span>
+		    <span id="ctrl3" class="dot"  ></span>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="Assets/js/carousel.js"></script>
+		
+	
+</body>
+</html>
