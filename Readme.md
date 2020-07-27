@@ -1,6 +1,6 @@
 # Project Title
 
-Building Carousel like slide animation from scratch using CSS3 and jQuery
+Building Carousel like slider animation from scratch using CSS3 and jQuery
 
 
 ## Getting Started
@@ -12,7 +12,7 @@ Building Carousel like slide animation from scratch using CSS3 and jQuery
 
 ## Built With
 
-* [Visual Studio Code](https://code.visualstudio.com/) - A code editor redefined and optimized for building and debugging modern web and cloud applications.
+* [Visual Studio Code](https://code.visualstudio.com/) - A code editor redefined and optimized for building and debugging modern web & cloud applications.
 
 
 ## Authors
